@@ -162,7 +162,9 @@ int object_write(ObjectType type, const void *data, size_t len, ObjectID *id_out
 //
 // HINTS - Useful syscalls and functions for this phase:
 //   - object_path        : getting the target file path
+
 //   - fopen, fread, fseek: reading the file into memory
+
 //   - memchr             : safely finding the '\0' separating header and data
 //   - strncmp            : parsing the type string ("blob", "tree", "commit")
 //   - compute_hash       : re-hashing the read data for integrity verification
