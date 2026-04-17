@@ -247,6 +247,8 @@ int commit_create(const char *message, ObjectID *commit_id_out) {
         return -1;
     }
 
+
+
     return 0;
 }
 
