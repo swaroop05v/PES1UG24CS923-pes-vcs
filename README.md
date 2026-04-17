@@ -606,3 +606,8 @@ The following questions cover filesystem concepts beyond the implementation scop
 - Implemented object_write and object_read
 - Verified hashing, deduplication, and integrity
 - All test cases passed successfully
+
+## Phase 2 Progress
+- Implemented tree_from_index
+- Verified serialization and parsing
+- All test_tree cases passed
