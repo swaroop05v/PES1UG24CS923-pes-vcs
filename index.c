@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
-
+// Debug: verified index_load and index_save functionality
 // ─── PROVIDED (KEEP SAME) ─────────────────────────────
 
 IndexEntry* index_find(Index *index, const char *path) {
