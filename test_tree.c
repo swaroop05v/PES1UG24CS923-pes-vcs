@@ -106,5 +106,6 @@ int main(void) {
     test_tree_determinism();
 
     printf("\nAll Phase 2 tests passed.\n");
+   
     return 0;
 }
