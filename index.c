@@ -16,7 +16,7 @@ IndexEntry* index_find(Index *index, const char *path) {
     }
     return NULL;
 }
-
+// Note: index persists using atomic write (temp + rename)
 int index_remove(Index *index, const char *path) {
     for (int i = 0; i < index->count; i++) {
         if (strcmp(index->entries[i].path, path) == 0) {
