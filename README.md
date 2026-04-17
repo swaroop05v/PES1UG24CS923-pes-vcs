@@ -616,3 +616,8 @@ The following questions cover filesystem concepts beyond the implementation scop
 - Implemented index_load, index_save, index_add
 - Verified staging using pes add and pes status
 - Index file stores metadata correctly
+
+## Phase 4 Completed
+- Implemented commit_create function
+- Verified commit chain and log output
+- Successfully created multiple commits
