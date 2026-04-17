@@ -611,3 +611,8 @@ The following questions cover filesystem concepts beyond the implementation scop
 - Implemented tree_from_index
 - Verified serialization and parsing
 - All test_tree cases passed
+
+## Phase 3 Completed
+- Implemented index_load, index_save, index_add
+- Verified staging using pes add and pes status
+- Index file stores metadata correctly
